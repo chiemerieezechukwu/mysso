@@ -35,6 +35,8 @@ def main():
         return
 
     u.switch_profile(profile)
+    
+    questionary.print("\nRefreshed sso credentials 🚀\n", style="fg:#b031de bold italic")
 
 
 if __name__ == "__main__":
